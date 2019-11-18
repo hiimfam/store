@@ -3,24 +3,68 @@ body {
     color: #000;
     line-height: 1.5cm;
     font-family: Arial;
+
 }
 
 .header {
     width: 100%;
-    height: 120px;
-    background-color: #3d4eff;
+    height: 170px;
+    background-color: #3948ed;
 }
 
 form {
-    padding-top:50px;
-    padding-left:100px;
+    padding-top: 80px;
+    padding-left:250px;
+    
+
+
 }
 
 input[type=text] {
-    width: 600px;
+    width: 500px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
-.nav
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: #3645d7;
+}
+
+.nav a {
+    text-decoration-line: none;
+    padding-left: 40px;
+    color:  white;
+    margin-left: 30px;
+
+
+}
+
+.nav tr {
+
+}
+
+.ad {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 25px;
+}
+
+.slideshow {
+    width: 100%;
+    height: 400px;
+    background: #d5d5d5;
+    margin-top: 40px;
+}
+
+#logo {
+    width: 130px;
+    height: 70px;
+    clear: both;
+    padding-bottom: 120px;
+    padding-left: 30px;
+
+}
