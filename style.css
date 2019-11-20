@@ -1,21 +1,25 @@
+* {
+    margin:0px;
+}
 body {
     background: #fff;
     color: #000;
     line-height: 1.5cm;
-    font-family: Arial;
+    font-family: Arial, serif;
 
 }
 
 .header {
     width: 100%;
-    height: 170px;
+    height: 130px;
     background-color: #3948ed;
+    position: relative;
 }
 
 form {
-    padding-top: 80px;
-    padding-left:250px;
-    
+    padding-top: 50px;
+    padding-left:200px;
+
 
 
 }
@@ -61,10 +65,35 @@ input[type=text] {
 }
 
 #logo {
-    width: 130px;
-    height: 70px;
-    clear: both;
-    padding-bottom: 120px;
-    padding-left: 30px;
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 50px;
 
+}
+
+.head1 {
+    width: 100%;
+    height: 90px;
+    background: #8d8d8d;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 70px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: #b5b5b5;
+}
+
+.flex-container > div {
+    background-color: white;
+    width: 200px;
+    height: 130px;
+    margin: 40px 0px 20px 30px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 15px;
 }
