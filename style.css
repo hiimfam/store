@@ -42,8 +42,6 @@ input[type=text] {
     padding-left: 40px;
     color:  white;
     margin-left: 30px;
-
-
 }
 
 .nav tr {
@@ -57,10 +55,16 @@ input[type=text] {
     padding: 25px;
 }
 
+.ad2 {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 25px;
+}
+
 .slideshow {
     width: 100%;
     height: 400px;
-    background: #d5d5d5;
     margin-top: 40px;
 }
 
@@ -76,7 +80,6 @@ input[type=text] {
 .head1 {
     width: 100%;
     height: 90px;
-    background: #8d8d8d;
     text-align: center;
     font-size: 25px;
     padding-top: 70px;
@@ -85,15 +88,73 @@ input[type=text] {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background: #b5b5b5;
 }
 
 .flex-container > div {
     background-color: white;
     width: 200px;
-    height: 130px;
+    height: 160px;
     margin: 40px 0px 20px 30px;
     text-align: center;
-    line-height: 200px;
-    font-size: 15px;
+    line-height: 260px;
+    font-size: 13px;
+}
+
+.flex-container a {
+    color: #3645d7;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #f0f0f0;
+    padding-left: 30px;
+    margin-top: 80px;
+    padding-top: 50px;
+    font-size: 11px;
+}
+
+.form {
+    width: 100%;
+    height: 500px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.form p {
+    font-size: 19px;
+    text-align: center;
+}
+
+.form form {
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #acaecc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #3645d7;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #3645d7;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
