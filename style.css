@@ -137,6 +137,7 @@ input[type=text] {
     font-size: 16px;
     text-align: center;
 
+
 }
 
 .form p {
@@ -178,17 +179,19 @@ input[type=button], input[type=submit], input[type=reset] {
 .flex-container1 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 300px;
-    padding-right: 0px;
-    float: left;
+    padding-left: 00px;
+
+    width: 1150px;
+    height: 100%;
+    float: right;
 
 }
 
 .flex-container1 > div {
-    background-color: grey;
+    background-color: #dcdcdc;
     width: 300px;
     height: 360px;
-    margin: 40px 0px 20px 30px;
+    margin: 20px 20px 20px 30px;
     text-align: center;
     line-height: 610px;
     font-size: 16px;
@@ -196,9 +199,29 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 .categories {
-    width: 170px;
-    height: 200px;
-    background: gainsboro;
+    width: 273px;
+    height: 1600px;
 
     float: left;
+}
+
+.categories h1 {
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.categories a {
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.categories p {
+    padding-left: 40px;
+}
+
+.categories input {
+    padding-left: 40px;
 }
